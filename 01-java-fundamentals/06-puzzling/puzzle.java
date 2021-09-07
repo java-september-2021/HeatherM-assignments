@@ -13,4 +13,22 @@ public class puzzle{
         char l = letters.get(index);
         return l;
     }
+
+    public void roll(){
+         ArrayList<Integer> arr = new ArrayList<Integer>();
+         int i=0;
+         for (1<10; i++;){
+             arr.add(rand,nextInt(20));
+         }
+         system.out.println(arr);
+    }
+
+    public String setpass(int num){
+        ArrayList<String> pass = new ArrayList<String();
+        int i = 0;
+        for (i< num; i++){
+            pass = pass + random();
+        }
+        return pass;
+    }
 }
